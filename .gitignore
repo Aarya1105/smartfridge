@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+ENV/
+env/
+
+# Database
+*.db
+*.sqlite3
+smart_fridge.db
+backend/smart_fridge.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+.npm
+.eslintcache
+
+# Environment
+.env
+.env.*
+backend/.env
+backend/.env.*
+
+# Storage uploads
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/foods/*
+!storage/foods/.gitkeep
+storage/audit/*
+!storage/audit/.gitkeep
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
